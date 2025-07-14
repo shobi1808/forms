@@ -1,0 +1,12 @@
+.para p{
+    color: rgb(102, 102, 237);
+    font-size: 18px;
+}
+.button button{
+    padding: 10px 20px;
+    background-color: #1cc88a;
+    color: white;
+    height:50px;
+    width: 200px;
+    border-radius: 5px;
+}
