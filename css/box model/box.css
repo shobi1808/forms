@@ -1,0 +1,9 @@
+.box h1{
+    width:250px;
+    height:100px;
+    padding:20px;
+    margin:500px;
+   border: 5px inset black;  
+   box-sizing: border-box;
+   background-color: bisque;
+}

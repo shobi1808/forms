@@ -1,0 +1,62 @@
+
+.container p{
+    display:inline;
+    background-color: black;
+    border: 1px solid green;
+    color: bisque;
+}
+.inline p{
+    display:block;
+    background-color: aqua;
+    color:blueviolet;
+    border:1px dotted black;
+}
+.menu li{
+    display:inline-block;
+}
+container {
+  height: 100vh; /* full height of screen */
+  display: flex; /* activates flexbox */
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  background-color: #f0f0f0;
+}
+
+/* Card design */
+.card {
+  background: #4CAF50;
+  color: white;
+  padding: 30px 50px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+.row div{
+    border: 1px solid black;
+    display: flex;
+    padding: 50px;
+    margin:20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:blue;
+}
+.row div:hover{
+    background-color: bisque;
+}
+.row div:nth-child(even){
+    background-color: cadetblue;
+}
+.gallery img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    padding:20px;
+    margin:auto
+}
+.tags span{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
