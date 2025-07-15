@@ -14,7 +14,7 @@
 .menu li{
     display:inline-block;
 }
-container {
+.container {
   height: 100vh; /* full height of screen */
   display: flex; /* activates flexbox */
   justify-content: center; /* horizontal centering */

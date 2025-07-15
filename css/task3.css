@@ -1,0 +1,15 @@
+.container div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(127, 221, 235);
+    box-shadow: 0 4px 8px #6668e9cf;
+    border-radius: 10px;
+    border: none; 
+}
+
+
+
