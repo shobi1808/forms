@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    flex-direction:row;
+justify-content: center;
+   gap:20px;
+}
+.button button{
+      background-color: brown;
+      color: azure;
+      height: 100px;
+      width: 200px;
+      border-radius: 10px;
+      box-shadow:0 4px 2px rgb(206, 164, 245);
+      margin:100px;
+      padding:2px;
+}
+button:hover{
+    background-color: rgb(190, 174, 68);
+}

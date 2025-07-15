@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    background-color: blue;
+    padding:20px;
+    margin:300px;
+    height: 200px;
+}
+.item1{
+    grid-column: 1/ span 4;
+}
+.item4{
+    grid-column: 1/span  4;
+}
+div{
+border: 2px solid bisque;
+background-color: rgb(163, 240, 214);
+color: black;
+padding:5px;
+text-align: center;
+}

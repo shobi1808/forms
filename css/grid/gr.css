@@ -1,0 +1,9 @@
+.gr{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+   background-color: rgb(86, 162, 223);
+}
+div,img{
+    border-radius: 10px;
+}
