@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation
+{
+    display: block;
+     position:sticky;
+ top:0px;
+  background-color: aquamarine;
+ 
+}
+.nav {
+ display:flex;
+flex-direction: row;
+ justify-content: center;
+ gap: 30px;
+ padding:20px;
+ 
+}
+
+
+.position{
+    border: 1px solid black;
+    height:200px;
+    width: 200px;
+    margin:100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px;
+}
+.top{
+    position: relative;
+    bottom: 0px;
+    left:75px;
+}
+
+a{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: bisque;
+    text-decoration: none;
+    box-shadow: 0 10px 20px;
+  height:30px;
+  width:80px;
+}
+
+
+
